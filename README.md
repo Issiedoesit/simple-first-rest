@@ -11,7 +11,7 @@ npm run dev
 npm run style
 
 
-#Hacky Fix to run tailwind and nodemon
+### Hacky Fix to run tailwind and nodemon
 
 
 *** Requires nodeJs AND mongodb + mongosh installed locally ***
