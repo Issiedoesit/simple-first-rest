@@ -1,0 +1,30 @@
+{
+  "name": "simple-first-rest",
+  "version": "1.0.0",
+  "description": "Understanding and Building my first rest api using express and mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "style":"npx tailwindcss -i ./assets/css/main.css -o ./assets/css/tailwind.css --watch"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongoose",
+    "nodemon",
+    "dotenv"
+  ],
+  "author": "Isioma Ekwemuka 'Issiedoesit'",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "tailwindcss": "^3.2.6"
+  }
+}

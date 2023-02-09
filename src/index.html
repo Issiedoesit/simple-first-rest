@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1f5aa4ec6b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../assets/css/tailwind.css">
+    <title>Show Page</title>
+</head>
+<body class="bg-slate-900 text-slate-400">
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="px-4 py-4 grid grid-cols-7">
+            <div class="col-span-5 overflow-x-auto space-y-2">
+                <table class="table table-fixed min-w-full">
+                    <th>
+                        <tr>
+                            <td class="px-4 text-center py-2">S/N</td>
+                            <td class="px-4 text-center py-2">ID</td>
+                            <td class="px-4 text-center py-2">Name</td>
+                            <td class="px-4 text-center py-2">Subscribed To</td>
+                            <td class="px-4 text-center py-2">Subscription Date</td>
+                            <td class="px-4 text-center py-2">Delete</td>
+                        </tr>
+                    </th>
+                    <tbody id="dataContainer">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-span-2 py-10">
+                <form action="" class="bg-white w-full h-fit flex flex-col gap-3 rounded-xl py-4 px-4">
+                    <div class="border-b border-b-slate-900 py-2 flex flex-col-reverse group">
+                        <input type="text" name="name" id="name" placeholder="Name" class="focus:outline-none focus:ring-0 peer">
+                        <label for="name" class="text-sm gap-2 peer-placeholder-shown:opacity-0 opacity-100 peer-placeholder-shown:translate-y-5 translate-y-0 transition-transform duration-300 ease-in-out">
+                            Name
+                        </label>
+                    </div>
+                    <div class="border-b border-b-slate-900 py-2 flex flex-col-reverse group">
+                        <input type="text" name="subscribed-to" id="subscribed_to" placeholder="Subscribe To" class="focus:outline-none focus:ring-0 peer">
+                        <label for="subscribed_to" class="text-sm gap-2 peer-placeholder-shown:opacity-0 opacity-100 peer-placeholder-shown:translate-y-5 translate-y-0 transition-transform duration-300 ease-in-out">
+                            Subscribe To
+                        </label>
+                    </div>
+                    <button type="submit" id="submit_sub" class="bg-blue-500 px-4 py-2 rounded-lg w-fit h-fit self-center text-white font-semibold hover:ring-1 hover:ring-offset-4 hover:ring-slate-900 cursor-pointer transition-all duration-500 ease-in-out">Subscribe to Channel</button>
+                </form>
+            </div>
+        </div>
+       
+    </main>
+
+
+
+    <script src="./../assets/js/index.js"></script>
+</body>
+</html>

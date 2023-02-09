@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/63e4e9fc56a9a6b8c211f331
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Isioma Ekwemuka",
+    "subscribedTo": "Web Dev Simplified"
+}
+
+###
+DELETE http://localhost:3000/subscribers/63e4efc7678de86e1692bef3
+
+###
+PATCH http://localhost:3000/subscribers/63e4f14bf9b37693b6f712cc
+Content-Type: application/json
+
+{
+    "name": "Isioma 'Issie' Ekwemuka",
+    "subscribedTo": "Web Dev Simplified"
+}
